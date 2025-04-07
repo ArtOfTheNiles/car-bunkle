@@ -3,7 +3,7 @@ import Vehicle from './Vehicle.js';
 import Wheel from './Wheel.js';
 
 // TODO: The Motorbike class should extend the Vehicle class
-class Motorbike {
+class Motorbike extends Vehicle {
   // TODO: Declare properties of the Motorbike class
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, and wheels
   // TODO: The types should be as follows: vin (string), color (string), make (string), model (string), year (number), weight (number), topSpeed (number), wheels (Wheel[])
@@ -20,6 +20,38 @@ class Motorbike {
   // TODO: The method should call the printDetails method of the parent class
   // TODO: The method should log the details of the Motorbike
   // TODO: The details should include the VIN, make, model, year, weight, top speed, color, and wheels
+  vin: string;
+  color: string;
+  make: string;
+  model: string;
+  year: number;
+  weight: number;
+  topSpeed: number;
+  wheels: Wheel[];
+  towingCapacity: number;
+  
+  constructor(
+    vin: string,
+    color: string,
+    make: string,
+    model: string,
+    year: number,
+    weight: number,
+    topSpeed: number,
+    wheels: Wheel[],
+    towingCapacity: number
+  ) {
+    super();
+    vin = vin;
+    color = color;
+    make = make;
+    model = model;
+    year = year;
+    weight = weight;
+    topSpeed = topSpeed;
+    wheels = wheels;
+    towingCapacity = towingCapacity;
+  }
 }
 
 // Export the Motorbike class as the default export
