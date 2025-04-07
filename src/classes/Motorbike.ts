@@ -28,7 +28,6 @@ class Motorbike extends Vehicle {
   weight: number;
   topSpeed: number;
   wheels: Wheel[];
-  towingCapacity: number;
   
   constructor(
     vin: string,
@@ -39,7 +38,6 @@ class Motorbike extends Vehicle {
     weight: number,
     topSpeed: number,
     wheels: Wheel[],
-    towingCapacity: number
   ) {
     super();
     vin = vin;
@@ -50,7 +48,6 @@ class Motorbike extends Vehicle {
     weight = weight;
     topSpeed = topSpeed;
     wheels = wheels;
-    towingCapacity = towingCapacity;
   }
 }
 
