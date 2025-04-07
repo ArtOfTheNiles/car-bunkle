@@ -28,15 +28,15 @@ class Truck extends Vehicle implements AbleToTow {
     towingCapacity: number
   ) {
     super();
-    vin = vin;
-    color = color;
-    make = make;
-    model = model;
-    year = year;
-    weight = weight;
-    topSpeed = topSpeed;
-    wheels = wheels;
-    towingCapacity = towingCapacity;
+    this.vin = vin;
+    this.color = color;
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.weight = weight;
+    this.topSpeed = topSpeed;
+    this.wheels = wheels;
+    this.towingCapacity = towingCapacity;
   }
   tow(vehicle: Truck | Motorbike | Car): void {
     // TODO: Get the make an model of the vehicle if it exists
