@@ -31,7 +31,11 @@ class Motorbike extends Vehicle {
     this.year = year;
     this.weight = weight;
     this.topSpeed = topSpeed;
-    this.wheels = wheels;
+    if (wheels.length !== 2) {
+      this.wheels = [new Wheel(), new Wheel()];
+    } else {
+      this.wheels = wheels;
+    }
   }
   wheelie(): void {
     console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie! 🏍`);
