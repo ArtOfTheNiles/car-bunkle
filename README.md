@@ -28,6 +28,7 @@ This is a terminal application to help you organize vehicles and their state
 
 Refer to the following video for instructions on how to use the program:
 
+https://github.com/user-attachments/assets/cd6aeaa5-e78c-4e9e-a634-6a57be79e661
 
 
 
@@ -35,6 +36,9 @@ Refer to the following video for instructions on how to use the program:
 ## Documentation
 
 Catch up on [Project Documentation](https://github.com/ArtOfTheNiles/car-bunkle/wiki) here
+
+
+
 
 
 
